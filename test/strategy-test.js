@@ -30,7 +30,7 @@ vows.describe('InstagramStrategy').addBatch({
       
       // mock
       strategy._oauth2.get = function(url, accessToken, callback) {
-        var body = '{"data": { "id": "1574083", "username": "snoopdogg", "full_name": "Snoop Doggy Dogg", "first_name": "Snoop", "last_name": "Dogg", "profile_picture": "http://distillery.s3.amazonaws.com/profiles/profile_1574083_75sq_1295469061.jpg", "bio": "This is my bio", "website": "http://snoopdogg.com", "counts": { "media": 1320, "follows": 420, "followed_by": 3410 } } }';
+        var body = '{ "id": "1574083", "username": "snoopdogg", "full_name": "Snoop Doggy Dogg", "first_name": "Snoop", "last_name": "Dogg", "profile_picture": "http://distillery.s3.amazonaws.com/profiles/profile_1574083_75sq_1295469061.jpg", "bio": "This is my bio", "website": "http://snoopdogg.com", "counts": { "media": 1320, "follows": 420, "followed_by": 3410 } }';
         
         callback(null, body, undefined);
       }
