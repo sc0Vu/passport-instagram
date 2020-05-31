@@ -5,10 +5,10 @@
   "keywords": ["passport", "instagram", "auth", "authn", "authentication", "identity"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-instagram.git"
+    "url": "git://github.com/sc0vu/passport-instagram.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-instagram/issues"
+    "url": "http://github.com/sc0vu/passport-instagram/issues"
   },
   "author": {
     "name": "Jared Hanson",
