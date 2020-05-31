@@ -1,5 +1,5 @@
 {
-  "name": "passport-instagram",
+  "name": "@sc0vu/passport-instagram",
   "version": "1.0.0",
   "description": "Instagram authentication strategy for Passport.",
   "keywords": [

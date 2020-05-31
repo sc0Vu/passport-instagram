@@ -17,7 +17,7 @@ unobtrusively integrated into any application or framework that supports
 ## Install
 
 ```shell
-$ npm install passport-instagram
+$ npm install @sc0vu/passport-instagram
 ```
 
 ## Usage
